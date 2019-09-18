@@ -1,6 +1,9 @@
 <template>
   <div class="home">
     <div class="home">home</div>
+    <div class="home">home</div>
+    <div class="home">home</div>
+    <div class="home">home</div>
   </div>
 </template>
 
@@ -17,4 +20,11 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.home{
+  color:red;
+  height: 100px;
+  width: 200px;
+  text-align: center;
+  background-color: blue;
+}
 </style>
